@@ -1,0 +1,252 @@
+{
+  "two-sum": {
+    "cpp": "class Solution {\npublic:\n    vector<int> twoSum(vector<int>& nums, int target) {\n        \n    }\n};",
+    "java": "class Solution {\n    public int[] twoSum(int[] nums, int target) {\n        \n    }\n}",
+    "python3": "class Solution:\n    def twoSum(self, nums: List[int], target: int) -> List[int]:\n        "
+  },
+  "longest-substring-without-repeating-characters": {
+    "cpp": "class Solution {\npublic:\n    int lengthOfLongestSubstring(string s) {\n        \n    }\n};",
+    "java": "class Solution {\n    public int lengthOfLongestSubstring(String s) {\n        \n    }\n}",
+    "python3": "class Solution:\n    def lengthOfLongestSubstring(self, s: str) -> int:\n        "
+  },
+  "maximum-subarray": {
+    "cpp": "class Solution {\npublic:\n    int maxSubArray(vector<int>& nums) {\n        \n    }\n};",
+    "java": "class Solution {\n    public int maxSubArray(int[] nums) {\n        \n    }\n}",
+    "python3": "class Solution:\n    def maxSubArray(self, nums: List[int]) -> int:\n        "
+  },
+  "trapping-rain-water": {
+    "cpp": "class Solution {\npublic:\n    int trap(vector<int>& height) {\n        \n    }\n};",
+    "java": "class Solution {\n    public int trap(int[] height) {\n        \n    }\n}",
+    "python3": "class Solution:\n    def trap(self, height: List[int]) -> int:\n        "
+  },
+  "best-time-to-buy-and-sell-stock": {
+    "cpp": "class Solution {\npublic:\n    int maxProfit(vector<int>& prices) {\n        \n    }\n};",
+    "java": "class Solution {\n    public int maxProfit(int[] prices) {\n        \n    }\n}",
+    "python3": "class Solution:\n    def maxProfit(self, prices: List[int]) -> int:\n        "
+  },
+  "3sum": {
+    "cpp": "class Solution {\npublic:\n    vector<vector<int>> threeSum(vector<int>& nums) {\n        \n    }\n};",
+    "java": "class Solution {\n    public List<List<Integer>> threeSum(int[] nums) {\n        \n    }\n}",
+    "python3": "class Solution:\n    def threeSum(self, nums: list[int]) -> list[list[int]]:\n        "
+  },
+  "container-with-most-water": {
+    "cpp": "class Solution {\npublic:\n    int maxArea(vector<int>& height) {\n        \n    }\n};",
+    "java": "class Solution {\n    public int maxArea(int[] height) {\n        \n    }\n}",
+    "python3": "class Solution:\n    def maxArea(self, height: List[int]) -> int:\n        "
+  },
+  "longest-palindromic-substring": {
+    "cpp": "class Solution {\npublic:\n    string longestPalindrome(string s) {\n        \n    }\n};",
+    "java": "class Solution {\n    public String longestPalindrome(String s) {\n        \n    }\n}",
+    "python3": "class Solution:\n    def longestPalindrome(self, s: str) -> str:\n        "
+  },
+  "median-of-two-sorted-arrays": {
+    "cpp": "class Solution {\npublic:\n    double findMedianSortedArrays(vector<int>& nums1, vector<int>& nums2) {\n        \n    }\n};",
+    "java": "class Solution {\n    public double findMedianSortedArrays(int[] nums1, int[] nums2) {\n        \n    }\n}",
+    "python3": "class Solution:\n    def findMedianSortedArrays(self, nums1: List[int], nums2: List[int]) -> float:\n        "
+  },
+  "search-in-rotated-sorted-array": {
+    "cpp": "class Solution {\npublic:\n    int search(vector<int>& nums, int target) {\n        \n    }\n};",
+    "java": "class Solution {\n    public int search(int[] nums, int target) {\n        \n    }\n}",
+    "python3": "class Solution:\n    def search(self, nums: List[int], target: int) -> int:\n        "
+  },
+  "valid-parentheses": {
+    "cpp": "class Solution {\npublic:\n    bool isValid(string s) {\n        \n    }\n};",
+    "java": "class Solution {\n    public boolean isValid(String s) {\n        \n    }\n}",
+    "python3": "class Solution:\n    def isValid(self, s: str) -> bool:\n        "
+  },
+  "product-of-array-except-self": {
+    "cpp": "class Solution {\npublic:\n    vector<int> productExceptSelf(vector<int>& nums) {\n        \n    }\n};",
+    "java": "class Solution {\n    public int[] productExceptSelf(int[] nums) {\n        \n    }\n}",
+    "python3": "class Solution:\n    def productExceptSelf(self, nums: List[int]) -> List[int]:\n        "
+  },
+  "find-the-duplicate-number": {
+    "cpp": "class Solution {\npublic:\n    int findDuplicate(vector<int>& nums) {\n        \n    }\n};",
+    "java": "class Solution {\n    public int findDuplicate(int[] nums) {\n        \n    }\n}",
+    "python3": "class Solution:\n    def findDuplicate(self, nums: List[int]) -> int:\n        "
+  },
+  "subarray-sum-equals-k": {
+    "cpp": "class Solution {\npublic:\n    int subarraySum(vector<int>& nums, int k) {\n        \n    }\n};",
+    "java": "class Solution {\n    public int subarraySum(int[] nums, int k) {\n        \n    }\n}",
+    "python3": "class Solution:\n    def subarraySum(self, nums: List[int], k: int) -> int:\n        "
+  },
+  "number-of-islands": {
+    "cpp": "class Solution {\npublic:\n    int numIslands(vector<vector<char>>& grid) {\n        \n    }\n};",
+    "java": "class Solution {\n    public int numIslands(char[][] grid) {\n        \n    }\n}",
+    "python3": "class Solution:\n    def numIslands(self, grid: List[List[str]]) -> int:\n        "
+  },
+  "merge-intervals": {
+    "cpp": "class Solution {\npublic:\n    vector<vector<int>> merge(vector<vector<int>>& intervals) {\n        \n    }\n};",
+    "java": "class Solution {\n    public int[][] merge(int[][] intervals) {\n        \n    }\n}",
+    "python3": "class Solution:\n    def merge(self, intervals: List[List[int]]) -> List[List[int]]:\n        "
+  },
+  "climbing-stairs": {
+    "cpp": "class Solution {\npublic:\n    int climbStairs(int n) {\n        \n    }\n};",
+    "java": "class Solution {\n    public int climbStairs(int n) {\n        \n    }\n}",
+    "python3": "class Solution:\n    def climbStairs(self, n: int) -> int:\n        "
+  },
+  "house-robber": {
+    "cpp": "class Solution {\npublic:\n    int rob(vector<int>& nums) {\n        \n    }\n};",
+    "java": "class Solution {\n    public int rob(int[] nums) {\n        \n    }\n}",
+    "python3": "class Solution:\n    def rob(self, nums: List[int]) -> int:\n        "
+  },
+  "find-first-and-last-position-of-element-in-sorted-array": {
+    "cpp": "class Solution {\npublic:\n    vector<int> searchRange(vector<int>& nums, int target) {\n        \n    }\n};",
+    "java": "class Solution {\n    public int[] searchRange(int[] nums, int target) {\n        \n    }\n}",
+    "python3": "class Solution:\n    def searchRange(self, nums: List[int], target: int) -> List[int]:\n        "
+  },
+  "generate-parentheses": {
+    "cpp": "class Solution {\npublic:\n    vector<string> generateParenthesis(int n) {\n        \n    }\n};",
+    "java": "class Solution {\n    public List<String> generateParenthesis(int n) {\n        \n    }\n}",
+    "python3": "class Solution:\n    def generateParenthesis(self, n: int) -> List[str]:\n        "
+  },
+  "longest-consecutive-sequence": {
+    "cpp": "class Solution {\npublic:\n    int longestConsecutive(vector<int>& nums) {\n        \n    }\n};",
+    "java": "class Solution {\n    public int longestConsecutive(int[] nums) {\n        \n    }\n}",
+    "python3": "class Solution:\n    def longestConsecutive(self, nums: List[int]) -> int:\n        "
+  },
+  "majority-element": {
+    "cpp": "class Solution {\npublic:\n    int majorityElement(vector<int>& nums) {\n        \n    }\n};",
+    "java": "class Solution {\n    public int majorityElement(int[] nums) {\n        \n    }\n}",
+    "python3": "class Solution:\n    def majorityElement(self, nums: List[int]) -> int:\n        "
+  },
+  "longest-increasing-subsequence": {
+    "cpp": "class Solution {\npublic:\n    int lengthOfLIS(vector<int>& nums) {\n        \n    }\n};",
+    "java": "class Solution {\n    public int lengthOfLIS(int[] nums) {\n        \n    }\n}",
+    "python3": "class Solution:\n    def lengthOfLIS(self, nums: List[int]) -> int:\n        "
+  },
+  "group-anagrams": {
+    "cpp": "class Solution {\npublic:\n    vector<vector<string>> groupAnagrams(vector<string>& strs) {\n        \n    }\n};",
+    "java": "class Solution {\n    public List<List<String>> groupAnagrams(String[] strs) {\n        \n    }\n}",
+    "python3": "class Solution:\n    def groupAnagrams(self, strs: List[str]) -> List[List[str]]:\n        "
+  },
+  "jump-game": {
+    "cpp": "class Solution {\npublic:\n    bool canJump(vector<int>& nums) {\n        \n    }\n};",
+    "java": "class Solution {\n    public boolean canJump(int[] nums) {\n        \n    }\n}",
+    "python3": "class Solution:\n    def canJump(self, nums: List[int]) -> bool:\n        "
+  },
+  "combination-sum": {
+    "cpp": "class Solution {\npublic:\n    vector<vector<int>> combinationSum(vector<int>& candidates, int target) {\n        \n    }\n};",
+    "java": "class Solution {\n    public List<List<Integer>> combinationSum(int[] candidates, int target) {\n        \n    }\n}",
+    "python3": "class Solution:\n    def combinationSum(self, candidates: List[int], target: int) -> List[List[int]]:\n        "
+  },
+  "letter-combinations-of-a-phone-number": {
+    "cpp": "class Solution {\npublic:\n    vector<string> letterCombinations(string digits) {\n        \n    }\n};",
+    "java": "class Solution {\n    public List<String> letterCombinations(String digits) {\n        \n    }\n}",
+    "python3": "class Solution:\n    def letterCombinations(self, digits: str) -> List[str]:\n        "
+  },
+  "sliding-window-maximum": {
+    "cpp": "class Solution {\npublic:\n    vector<int> maxSlidingWindow(vector<int>& nums, int k) {\n        \n    }\n};",
+    "java": "class Solution {\n    public int[] maxSlidingWindow(int[] nums, int k) {\n        \n    }\n}",
+    "python3": "class Solution:\n    def maxSlidingWindow(self, nums: List[int], k: int) -> List[int]:\n        "
+  },
+  "minimum-window-substring": {
+    "cpp": "class Solution {\npublic:\n    string minWindow(string s, string t) {\n        \n    }\n};",
+    "java": "class Solution {\n    public String minWindow(String s, String t) {\n        \n    }\n}",
+    "python3": "class Solution:\n    def minWindow(self, s: str, t: str) -> str:\n        "
+  },
+  "largest-rectangle-in-histogram": {
+    "cpp": "class Solution {\npublic:\n    int largestRectangleArea(vector<int>& heights) {\n        \n    }\n};",
+    "java": "class Solution {\n    public int largestRectangleArea(int[] heights) {\n        \n    }\n}",
+    "python3": "class Solution:\n    def largestRectangleArea(self, heights: List[int]) -> int:\n        "
+  },
+  "search-insert-position": {
+    "cpp": "class Solution {\npublic:\n    int searchInsert(vector<int>& nums, int target) {\n        \n    }\n};",
+    "java": "class Solution {\n    public int searchInsert(int[] nums, int target) {\n        \n    }\n}",
+    "python3": "class Solution:\n    def searchInsert(self, nums: List[int], target: int) -> int:\n        "
+  },
+  "single-number": {
+    "cpp": "class Solution {\npublic:\n    int singleNumber(vector<int>& nums) {\n        \n    }\n};",
+    "java": "class Solution {\n    public int singleNumber(int[] nums) {\n        \n    }\n}",
+    "python3": "class Solution:\n    def singleNumber(self, nums: List[int]) -> int:\n        "
+  },
+  "roman-to-integer": {
+    "cpp": "class Solution {\npublic:\n    int romanToInt(string s) {\n        \n    }\n};",
+    "java": "class Solution {\n    public int romanToInt(String s) {\n        \n    }\n}",
+    "python3": "class Solution:\n    def romanToInt(self, s: str) -> int:\n        "
+  },
+  "palindrome-number": {
+    "cpp": "class Solution {\npublic:\n    bool isPalindrome(int x) {\n        \n    }\n};",
+    "java": "class Solution {\n    public boolean isPalindrome(int x) {\n        \n    }\n}",
+    "python3": "class Solution:\n    def isPalindrome(self, x: int) -> bool:\n        "
+  },
+  "pascals-triangle": {
+    "cpp": "class Solution {\npublic:\n    vector<vector<int>> generate(int numRows) {\n        \n    }\n};",
+    "java": "class Solution {\n    public List<List<Integer>> generate(int numRows) {\n        \n    }\n}",
+    "python3": "class Solution:\n    def generate(self, numRows: int) -> List[List[int]]:\n        "
+  },
+  "valid-anagram": {
+    "cpp": "class Solution {\npublic:\n    bool isAnagram(string s, string t) {\n        \n    }\n};",
+    "java": "class Solution {\n    public boolean isAnagram(String s, String t) {\n        \n    }\n}",
+    "python3": "class Solution:\n    def isAnagram(self, s: str, t: str) -> bool:\n        "
+  },
+  "missing-number": {
+    "cpp": "class Solution {\npublic:\n    int missingNumber(vector<int>& nums) {\n        \n    }\n};",
+    "java": "class Solution {\n    public int missingNumber(int[] nums) {\n        \n    }\n}",
+    "python3": "class Solution:\n    def missingNumber(self, nums: List[int]) -> int:\n        "
+  },
+  "contains-duplicate": {
+    "cpp": "class Solution {\npublic:\n    bool containsDuplicate(vector<int>& nums) {\n        \n    }\n};",
+    "java": "class Solution {\n    public boolean containsDuplicate(int[] nums) {\n        \n    }\n}",
+    "python3": "class Solution:\n    def containsDuplicate(self, nums: List[int]) -> bool:\n        "
+  },
+  "binary-search": {
+    "cpp": "class Solution {\npublic:\n    int search(vector<int>& nums, int target) {\n        \n    }\n};",
+    "java": "class Solution {\n    public int search(int[] nums, int target) {\n        \n    }\n}",
+    "python3": "class Solution:\n    def search(self, nums: List[int], target: int) -> int:\n        "
+  },
+  "min-cost-climbing-stairs": {
+    "cpp": "class Solution {\npublic:\n    int minCostClimbingStairs(vector<int>& cost) {\n        \n    }\n};",
+    "java": "class Solution {\n    public int minCostClimbingStairs(int[] cost) {\n        \n    }\n}",
+    "python3": "class Solution:\n    def minCostClimbingStairs(self, cost: List[int]) -> int:\n        "
+  },
+  "happy-number": {
+    "cpp": "class Solution {\npublic:\n    bool isHappy(int n) {\n        \n    }\n};",
+    "java": "class Solution {\n    public boolean isHappy(int n) {\n        \n    }\n}",
+    "python3": "class Solution:\n    def isHappy(self, n: int) -> bool:\n        "
+  },
+  "counting-bits": {
+    "cpp": "class Solution {\npublic:\n    vector<int> countBits(int n) {\n        \n    }\n};",
+    "java": "class Solution {\n    public int[] countBits(int n) {\n        \n    }\n}",
+    "python3": "class Solution:\n    def countBits(self, n: int) -> List[int]:\n        "
+  },
+  "plus-one": {
+    "cpp": "class Solution {\npublic:\n    vector<int> plusOne(vector<int>& digits) {\n        \n    }\n};",
+    "java": "class Solution {\n    public int[] plusOne(int[] digits) {\n        \n    }\n}",
+    "python3": "class Solution:\n    def plusOne(self, digits: List[int]) -> List[int]:\n        "
+  },
+  "valid-palindrome": {
+    "cpp": "class Solution {\npublic:\n    bool isPalindrome(string s) {\n        \n    }\n};",
+    "java": "class Solution {\n    public boolean isPalindrome(String s) {\n        \n    }\n}",
+    "python3": "class Solution:\n    def isPalindrome(self, s: str) -> bool:\n        "
+  },
+  "is-subsequence": {
+    "cpp": "class Solution {\npublic:\n    bool isSubsequence(string s, string t) {\n        \n    }\n};",
+    "java": "class Solution {\n    public boolean isSubsequence(String s, String t) {\n        \n    }\n}",
+    "python3": "class Solution:\n    def isSubsequence(self, s: str, t: str) -> bool:\n        "
+  },
+  "add-binary": {
+    "cpp": "class Solution {\npublic:\n    string addBinary(string a, string b) {\n        \n    }\n};",
+    "java": "class Solution {\n    public String addBinary(String a, String b) {\n        \n    }\n}",
+    "python3": "class Solution:\n    def addBinary(self, a: str, b: str) -> str:\n        "
+  },
+  "isomorphic-strings": {
+    "cpp": "class Solution {\npublic:\n    bool isIsomorphic(string s, string t) {\n        \n    }\n};",
+    "java": "class Solution {\n    public boolean isIsomorphic(String s, String t) {\n        \n    }\n}",
+    "python3": "class Solution:\n    def isIsomorphic(self, s: str, t: str) -> bool:\n        "
+  },
+  "find-all-numbers-disappeared-in-an-array": {
+    "cpp": "class Solution {\npublic:\n    vector<int> findDisappearedNumbers(vector<int>& nums) {\n        \n    }\n};",
+    "java": "class Solution {\n    public List<Integer> findDisappearedNumbers(int[] nums) {\n        \n    }\n}",
+    "python3": "class Solution:\n    def findDisappearedNumbers(self, nums: List[int]) -> List[int]:\n        "
+  },
+  "squares-of-a-sorted-array": {
+    "cpp": "class Solution {\npublic:\n    vector<int> sortedSquares(vector<int>& nums) {\n        \n    }\n};",
+    "java": "class Solution {\n    public int[] sortedSquares(int[] nums) {\n        \n    }\n}",
+    "python3": "class Solution:\n    def sortedSquares(self, nums: List[int]) -> List[int]:\n        "
+  },
+  "next-greater-element-i": {
+    "cpp": "class Solution {\npublic:\n    vector<int> nextGreaterElement(vector<int>& nums1, vector<int>& nums2) {\n        \n    }\n};",
+    "java": "class Solution {\n    public int[] nextGreaterElement(int[] nums1, int[] nums2) {\n        \n    }\n}",
+    "python3": "class Solution:\n    def nextGreaterElement(self, nums1: List[int], nums2: List[int]) -> List[int]:\n        "
+  }
+}

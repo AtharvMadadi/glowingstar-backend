@@ -1,0 +1,36 @@
+services:
+  db:
+    image: postgres:16
+    environment:
+      POSTGRES_USER: gs
+      POSTGRES_PASSWORD: gsdev
+      POSTGRES_DB: glowingstar
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U gs -d glowingstar"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+
+  api:
+    build: .
+    depends_on:
+      db:
+        condition: service_healthy
+    environment:
+      DATABASE_URL: postgresql://gs:gsdev@db:5432/glowingstar
+      JWT_SECRET: ${JWT_SECRET:-}
+      JUDGE_IMAGE: python:3.11-slim
+    ports:
+      - "8000:8000"
+    volumes:
+      # Grants the API access to the host Docker daemon so it can launch
+      # disposable judge containers. See README — this is a deliberate
+      # development-environment tradeoff.
+      - /var/run/docker.sock:/var/run/docker.sock
+
+volumes:
+  pgdata:

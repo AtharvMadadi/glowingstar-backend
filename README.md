@@ -15,6 +15,10 @@ docker compose up --build
 
 Then open **http://localhost:8000/docs**.
 
+**Postman:** Import → Link → `http://localhost:8000/openapi.json`
+
+> **Port 5432 in use?** The `db` service publishes 5432 on the host, so another Postgres (or another copy of this project) will block startup with `Bind for 0.0.0.0:5432 failed`. Stop the other one, or change the host side of the port mapping in `docker-compose.yml`. If a run already failed this way, `docker compose down -v` before retrying — the half-created database container is left off the network and the API will report `postgres did not become available`.
+
 On first boot the API waits for Postgres, applies migrations, seeds 50 problems,
 pulls the judge runtime image, and starts serving. No manual setup steps.
 

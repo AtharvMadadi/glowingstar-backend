@@ -17,3 +17,32 @@ jobs:
       - run: pip install -r requirements.txt
       - run: pip install pytest
       - run: pytest tests/ -v
+
+  catalogue-data:
+    # Data half of the verification gate. The execution half is deliberately
+    # not run in CI: it launches a Docker container per problem through a
+    # mounted socket, which is not something a hosted runner should be given.
+    # Run the full gate locally before tagging a release.
+    runs-on: ubuntu-latest
+    services:
+      postgres:
+        image: postgres:16
+        env:
+          POSTGRES_USER: gs
+          POSTGRES_PASSWORD: gsdev
+          POSTGRES_DB: glowingstar
+        ports: ["5432:5432"]
+        options: >-
+          --health-cmd pg_isready --health-interval 5s
+          --health-timeout 5s --health-retries 10
+    env:
+      DATABASE_URL: postgresql://gs:gsdev@localhost:5432/glowingstar
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - run: alembic upgrade head
+      - run: python3 scripts/seed_problems.py
+      - run: python3 scripts/verify_catalogue.py --data-only
